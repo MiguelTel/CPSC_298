@@ -1,0 +1,6 @@
+#!/bin/bash
+# Set the path to the XML file in the current directory
+XML_PATH="./commit_prompt.xml"
+
+# Read the XML file content and pass it as input to llm
+cat "$XML_PATH" | llm -t git_commit

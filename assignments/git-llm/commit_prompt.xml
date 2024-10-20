@@ -1,0 +1,6 @@
+<prompt>
+  <system>Create a git commit command.</system>
+  <input>
+    Deleted git-llm and added commit_prompt.xml, git-llmf script and commit_sample.yaml.
+  </input>
+</prompt>
